@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  color: white;
+  background-color: rgb(80, 72, 229);
+  border: 0px;
+  border-radius: .3em;
+  padding: 1em;
+  margin: 1em auto;
+}
+
+button:hover {
+  background-color: rgb(56, 50, 160);
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+nav {
+  background-color: rgb(18, 24, 40);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15rem;
+  height: 100vh;
+}
+
+nav img {
+  display: block;
+  padding: 1em;
+  width: 30%;
+  margin: auto;
+}
+
+nav a {
+  color: white!important;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li > a {
+  display: flex;
+  padding: 1em;
+}
+
+nav > ul > li > a:hover {
+  background-color: rgb(56, 50, 160);
+}
+
+nav > ul > li:target > a {
+  background-color: rgb(80, 72, 229);
+}
+
+main {
+  margin: 1em 1em 1em 16em; 
+}
+
+form {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-row-gap: 1em;
+  width: 40em;
+  margin: auto;
+}
+
+form > button, form > p {
+  grid-column: span 2;
+}
