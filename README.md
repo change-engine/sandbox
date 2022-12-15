@@ -2,6 +2,12 @@
 
 This is a simple React + Supabase sandbox.
 
+## Prerequisites
+
+* Node 16
+* Docker
+* A package manager of your choice. We tend to use Yarn.
+
 ## Available Scripts
 
 In the project directory, after `yarn install` you can run:
@@ -10,6 +16,8 @@ In the project directory, after `yarn install` you can run:
 
 Launch the database and API into docker containers.\
 Open [http://localhost:54323](http://localhost:54323) to view it in the browser.
+
+If you have issues installing the local database, an alternative is to use a [free remote instance](https://supabase.com/database).
 
 ### `yarn start`
 
